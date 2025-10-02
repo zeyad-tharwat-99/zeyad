@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="app.js" defer></script>
+    <title>Zeyad Tharwat</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Zeyad</a>
+        <nav class="navigation">
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="join.html" class="nav-btn">Join With Us</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="content">
+            <h1 class="welcome-text">Hello, I'm Zeyad</h1>
+            <h2 class="title-text">Content Creator</h2>
+            <h3 class="description-text">I build life-changing courses</h3>
+            <a href="projects.html" class="main-btn">View My Work</a>
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="profile-image">
+            <img src="your-image-url.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <!-- Service Cards -->
+            <div class="card">
+                <div class="icon"><i class="fas fa-edit"></i></div>
+                <div class="info">
+                    <h3>Script Writing</h3>
+                    <p>Research and write scripts for different topics that can be directly recorded for video production.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fas fa-video"></i></div>
+                <div class="info">
+                    <h3>Video Production</h3>
+                    <p>Record and shoot videos with proper settings, followed by production & post-production work.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="info">
+                    <h3>Curriculum Development</h3>
+                    <p>Develop complete curriculums for various technical topics to produce digital transformative courses.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-microphone"></i></div>
+                <div class="info">
+                    <h3>Podcast Hosting</h3>
+                    <p>Host engaging podcasts and manage all aspects of recording and publishing.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-chart-line"></i></div>
+                <div class="info">
+                    <h3>Marketing Strategy</h3>
+                    <p>Create comprehensive marketing strategies to boost your online presence and engagement.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-pencil-alt"></i></div>
+                <div class="info">
+                    <h3>Content Editing</h3>
+                    <p>Edit and refine content for clarity, style, and effectiveness to ensure high-quality output.</p>
+                </div>
+            </div>
+            <!-- Additional service cards -->
+            <div class="card">
+                <div class="icon"><i class="fab fa-figma"></i></div>
+                <div class="info">
+                    <h3>AI</h3>
+                    <p>Artificial Intelligence (AI) has rapidly evolved from a niche area of computer science into a transformative force.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-house"></i></div>
+                <div class="info">
+                    <h3>Social Media</h3>
+                    <p>Social media depend and focus on the audience, and you can earn millions of dollars from social media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Projects Section -->
+<section class="projects" id="projects">
+    <img src="images/photo.jpg" alt="Project Photo" class="photo">
+    <h2 class="title">Projects</h2>
+    <div class="filter-buttons">
+        <button onclick="filterProjects('All')">All</button>
+        <button onclick="filterProjects('Web Development and Design')">Web Development and Design</button>
+        <button onclick="filterProjects('Digital Marketing and SEO')">Digital Marketing and SEO</button>
+        <button onclick="filterProjects('Graphic Design and Branding')">Graphic Design and Branding</button>
+        <button onclick="filterProjects('Content Creation and Strategy')">Content Creation and Strategy</button>
+        <button onclick="filterProjects('Video Editing and Production')">Video Editing and Production</button>
+        <button onclick="filterProjects('Social Media Management')">Social Media Management</button>
+    </div>
+    <div class="content">
+        <!-- Project Cards -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work1.jpg" alt="DEV BOOKS Project Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Web Development and Design</p>
+                <strong class="project-title">
+                    <span>DEV BOOKS</span>
+                    <a href="#" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work2.jpg" alt="MARKETING MASTERY Project Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Digital Marketing and SEO</p>
+                <strong class="project-title">
+                    <span>MARKETING MASTERY</span>
+                    <a href="#" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work3.jpg" alt="BRAND BUILDERS Project Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Graphic Design and Branding</p>
+                <strong class="project-title">
+                    <span>BRAND BUILDERS</span>
+                    <a href="#" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work4.jpg" alt="CONTENT CREATOR Project Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Content Creation and Strategy</p>
+                <strong class="project-title">
+                    <span>CONTENT CREATOR</span>
+                    <a href="#" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work5.jpg" alt="VIDEO MASTER Project Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Video Editing and Production</p>
+                <strong class="project-title">
+                    <span>VIDEO MASTER</span>
+                    <a href="#" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <img src="images/work6.jpg" alt="SM EXPERT Project Image">
+            </div>
+            <div class="project-info">
+                <p class="project-category">Social Media Management</p>
+                <strong class="project-title">
+                    <span>SM EXPERT</span>
+                    <a href="#" class="more-details">More details</a>
+                </strong>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonials Section -->
+    
+    
+<!-- Blog Section -->
+<section class="blog" id="blog">
+    <h2 class="title">Blog</h2>
+    <div class="content">
+        <div class="blog-post">
+            <h3>Blog Post Title 1</h3>
+            <p>Unlocking your full potential begins with understanding your strengths and setting clear goals. Embrace a growth mindset and stay motivated by consistently challenging yourself. Build habits that align with your aspirations, and surround yourself with supportive and inspiring individuals. By focusing on continuous improvement and staying resilient, you can achieve remarkable personal and professional growth. Remember, success is a journey, not a destination—commit to learning and evolving every day.</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>Blog Post Title 2</h3>
+            <p>Effective communication is crucial in every aspect of life, from personal relationships to professional interactions. It involves not only expressing your ideas clearly but also actively listening to others. Practice empathy by understanding and considering the perspectives of those you communicate with. Use clear and concise language to avoid misunderstandings, and be mindful of non-verbal cues such as body language and tone of voice. By honing your communication skills, you can build stronger connections, resolve conflicts more efficiently, and foster a positive and collaborative environment. Remember, good communication is the key to building lasting relationships and achieving success in any endeavor.</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>Blog Post Title 3</h3>
+            <p>Change is an inevitable part of life and can often bring both challenges and opportunities. Embracing change with a positive mindset is essential for personal and professional growth. Start by acknowledging your feelings about the transition and understand that it's normal to experience a range of emotions. Set clear goals to guide your actions and focus on what you can control. Develop a flexible plan that allows you to adapt to new circumstances and be open to learning new skills. Surround yourself with supportive individuals who can offer guidance and encouragement. By approaching change with resilience and adaptability, you can turn transitions into stepping stones for success and personal development.</p>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <!-- Add more blog posts if needed -->
+    </div>
+</section>
+
+<section class="faq" id="faq">
+    <h2 class="title">FAQ</h2>
+    <div class="content">
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Question 1</h3>
+                <button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-answer">
+                <p>Answer to Question 1: This FAQ section aims to provide answers to common questions, helping users find relevant information quickly and easily. It addresses frequently asked questions to clarify common queries and provide helpful insights.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Question 2</h3>
+                <button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-answer">
+                <p>Answer to Question 2: To contact customer support, you can use the contact form available on our website, send us an email at support@example.com, or call our support hotline at (123) 456-7890. Our team is available to assist you with any inquiries or issues you may have.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">
+                <h3>Question 3</h3>
+                <button class="faq-toggle">+</button>
+            </div>
+            <div class="faq-answer">
+                <p>Answer to Question 3: Our return policy allows you to return products within 30 days of purchase for a full refund, provided the items are in their original condition and packaging. Please review our return policy on the website for more details on the process and any exceptions.</p>
+            </div>
+        </div>
+        <!-- Add more FAQ items if needed -->
+    </div>
+</section>
+<!-- Gallery Section -->
+<section class="gallery" id="gallery">
+    <h2 class="title">Gallery</h2>
+    <div class="content">
+        <div class="gallery-item">
+            <img src="images/gallery1.jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery2.jpg" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery3.jpg" alt="Gallery Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/gallery4.jpg" alt="Gallery Image 4">
+        </div>
+        <!-- Add more gallery items if needed -->
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2 class="title">Let's work together</h2>
+    <div class="content">
+        <!-- Existing Contact Cards -->
+        <div class="card">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            <div class="info">
+                <h3>Phone</h3>
+                <p>0128526975</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div class="info">
+                <h3>Email</h3>
+                <p>zeyad.tharwat.zt</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="info">
+                <h3>Location</h3>
+                <p>Port Said, Egypt</p>
+            </div>
+        </div>
+        <!-- New Contact Cards with Fake Users -->
+        <div class="card">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="info">
+                <h3>John Doe</h3>
+                <p>CEO</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="info">
+                <h3>Jane Smith</h3>
+                <p>Marketing Manager</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="info">
+                <h3>Emily Johnson</h3>
+                <p>Sales Representative</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="info">
+                <h3>Michael Brown</h3>
+                <p>Customer Support</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="info">
+                <h3>Lisa White</h3>
+                <p>Product Designer</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon"><i class="fas fa-user"></i></div>
+            <div class="info">
+                <h3>David Wilson</h3>
+                <p>Software Engineer</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sign-Up Form Section -->
+<section class="form-section" id="signup">
+    <div class="container">
+        <h2 class="heading">Sign Up</h2>
+        <form id="signup-form" class="form">
+            <label for="signup-name">Name:</label>
+            <input type="text" id="signup-name" name="name" class="input" required>
+            
+            <label for="signup-email">Email:</label>
+            <input type="email" id="signup-email" name="email" class="input" required>
+            
+            <label for="signup-password">Password:</label>
+            <input type="password" id="signup-password" name="password" class="input" required>
+            
+            <button type="submit" class="login-button">Sign Up</button>
+        </form>
+    </div>
+</section>
+<!-- Sign-In Form Section -->
+<section class="form-section" id="signin">
+    <div class="container">
+        <div class="heading">Sign In</div>
+        <form action="" class="form">
+            <input type="email" required class="input" placeholder="E-mail">
+            <input type="password" required class="input" placeholder="Password">
+            <span class="forget-password"><a href="#">Forgot password?</a></span>
+            <input class="login-button" type="submit" value="Sign In">
+        </form>
+        <div class="social-account-container">
+            <span class="title">or sign in with</span>
+            <div class="social-account">
+                <button class="social-button-google">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 488 512">
+                        <path d="..."></path>
+                    </svg>
+                </button>
+                <button class="social-button-apple">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                        <path d="..."></path>
+                    </svg>
+                </button>
+                <button class="social-button-twitter">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                        <path d="..."></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <span class="agreement"><a href="#">SL Code <span style="color:red;">Hub</span></a></span>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <p class="footer-title">© 2024 <span>Zeyad Tharwat</span>. All Rights Reserved.</p>
+    <div class="social-icons">
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+
+</body>
+</html>
